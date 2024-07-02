@@ -1,0 +1,130 @@
+{
+    "title": "",
+    "form": {
+        "signup": "",
+        "login": "",
+        "email": "",
+        "name": "",
+        "username": "",
+        "password": "",
+        "confirmPassword": "",
+        "messageForLogin": "",
+        "messageForRegistration": "",
+        "createAccount": "",
+        "placeholderEmail": "",
+        "placeholderName": "",
+        "validationMessages": {
+            "passwordFormatInvalid": "",
+            "required": "{{field}}",
+            "invalid": "{{field}}",
+            "minLength": "{{field}}{{min}}"
+        },
+        "responseMessages": {
+            "registrationSuccess": "",
+            "registrationFailed": "",
+            "loginSuccess": "",
+            "loginFailed": "",
+            "duplicateUser": "",
+            "notFoundUser": "",
+            "unknownError": ""
+          }
+    },
+    "cocktailsPage": {
+        "title": "",
+        "createCocktail": "",
+        "editCocktail": "",
+        "filter": "",
+        "ingredients": "",
+        "description": "",
+        "belongsTo": "",
+        "unknownUser": "",
+        "preparationInstructions": "",
+        "buttons": {
+            "buttonCreateCocktail": "",
+            "buttonEditCocktail": "",
+            "buttonDeleteCocktail": ""
+        },
+        "form": {
+            "name" : "",
+            "fieldIsRequired": "",
+            "describtion": "",
+            "ingredients": "",
+            "image": "",
+            "preparationSteps": "",
+            "submit": ""
+        },
+        "messages": {
+            "failToSetFile": "",
+            "failToDelete": "",
+            "failToCreate": "",
+            "failToUpdate": "",
+            "noItemsMessage": ""
+        }
+    },
+    "barsPage": {
+        "title": "",
+        "create": "",
+        "edit": "",
+        "openHours": "",
+        "filter": "",
+        "menu": "",
+        "belongsTo": "",
+        "unknownUser": "",
+        "buttons": {
+            "buttonCreate": "",
+            "buttonEdit": "",
+            "buttonDelete": ""
+        },
+        "form": {
+            "name" : "",
+            "fieldIsRequired": "",
+            "describtion": "",
+            "openHours": "",
+            "image": "",
+            "menu": "",
+            "submit": ""
+        },
+        "messages": {
+            "failToSetFile": "",
+            "failToDelete": "",
+            "failToCreate": "",
+            "failToUpdate": "",
+            "noItemsMessage": ""
+        }
+    },
+    "ingredientsPage": {
+        "title": "",
+        "create": "",
+        "edit": "",
+        "filter": "",
+        "buttons": {
+            "buttonCreate": "",
+            "buttonEdit": "",
+            "buttonDelete": ""
+        },
+        "form": {
+            "name" : "",
+            "fieldIsRequired": "",
+            "describtion": "",
+            "image": "",
+            "submit": ""
+        },
+        "messages": {
+            "failToSetFile": "",
+            "failToDelete": "",
+            "failToCreate": "",
+            "failToUpdate": "",
+            "noItemsMessage": ""
+        }
+    },
+    "userManagement": {
+        "role": "",
+        "user": "",
+        "moderator": "",
+        "admin": "",
+        "alertMessage": "",
+        "deleteUserSuccessMessage": "",
+        "userChangeSuccessMessage": "",
+        "logoutSuccess": ""
+    }
+}

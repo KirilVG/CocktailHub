@@ -1,0 +1,1 @@
+export const ApiRoute = process.env.VITE_GYC_API_URL;

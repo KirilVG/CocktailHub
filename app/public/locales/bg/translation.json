@@ -1,0 +1,130 @@
+{
+    "title": "Коктейл хъб",
+    "form": {
+        "signup": "Регистрация",
+        "login": "Вход",
+        "email": "имейл",
+        "name": "име и фамилия",
+        "username": "потребителско име",
+        "password": "Парола",
+        "confirmPassword": "Потвърди паролата",
+        "messageForLogin": "Вече имаш акаунт?",
+        "messageForRegistration": "Все още нямаш акаунт?",
+        "createAccount": "Създай акаунт",
+        "placeholderEmail": "name@example.com",
+        "placeholderName": "иванИванов123",
+        "validationMessages": {
+            "passwordFormatInvalid": "Паролата трябва да бъде най-малко 12 знака и да съдържа поне една главна, една малка буква, число и символ.",
+            "required": "Моля напишете {{field}}",
+            "invalid": "Невалидно задаване на {{field}}",
+            "minLength": "{{field}} трябва да е поне {{min}} знака"
+        },
+        "responseMessages": {
+            "registrationSuccess": "Регистрацията е успешна!",
+            "registrationFailed": "Регистрацията неуспешна!",
+            "loginSuccess": "Вие сте влезли успешно!",
+            "loginFailed": "Грешен имейл или парола!",
+            "duplicateUser": "Потребителят вече съществува!",
+            "notFoundUser": "Потребителят не беше намерен!",
+            "unknownError": "Възникна грешка!"
+          }
+    },
+    "cocktailsPage": {
+        "title": "Коктейли",
+        "createCocktail": "Създай коктейл",
+        "editCocktail": "Промени коктейла",
+        "filter": "Филтрирай: ",
+        "ingredients": "Съставки:",
+        "description": "Описание",
+        "belongsTo": "от: ",
+        "unknownUser": "неизвестен потребител",
+        "preparationInstructions": "Начин на приготвяне",
+        "buttons": {
+            "buttonCreateCocktail": "Създай коктейл",
+            "buttonEditCocktail": "Промени",
+            "buttonDeleteCocktail": "Изтрий"
+        },
+        "form": {
+            "name" : "Име:",
+            "fieldIsRequired": "Това поле е задължително",
+            "describtion": "Описание:",
+            "ingredients": "СЪставки:",
+            "image": "Снимка:",
+            "preparationSteps": "Начин на приготвяне:",
+            "submit": "Предай"
+        },
+        "messages": {
+            "failToSetFile": "Снимката не можа да се избере",
+            "failToDelete": "Коктейлът не можа да бъде изтрита",
+            "failToCreate": "Коктейлът не можа да бъде създадена",
+            "failToUpdate": "Коктейлът не можа да бъде променена",
+            "noItemsMessage": "Няма Коктейли"
+        }
+    },
+    "barsPage": {
+        "title": "Барове",
+        "create": "Създай бар",
+        "edit": "Промени бара",
+        "openHours": "Работно време: ",
+        "filter": "Филтрирай: ",
+        "menu": "menu",
+        "belongsTo": "собственик: ",
+        "unknownUser": "неизвестен потребител",
+        "buttons": {
+            "buttonCreate": "Създай бар",
+            "buttonEdit": "Промени",
+            "buttonDelete": "Изтрий"
+        },
+        "form": {
+            "name" : "Име:",
+            "fieldIsRequired": "Това поле е задължително",
+            "describtion": "Описание:",
+            "openHours": "Работно време: ",
+            "image": "Снимка:",
+            "menu": "Меню:",
+            "submit": "Предай"
+        },
+        "messages": {
+            "failToSetFile": "Снимката не можа да се избере",
+            "failToDelete": "Барът не можа да бъде изтрита",
+            "failToCreate": "Барът не можа да бъде създадена",
+            "failToUpdate": "Барът не можа да бъде променена",
+            "noItemsMessage": "Няма Барове"
+        }
+    },
+    "ingredientsPage": {
+        "title": "Съставки",
+        "create": "Създай съставка",
+        "edit": "Промени съставка",
+        "filter": "Филтрирай: ",
+        "buttons": {
+            "buttonCreate": "Създай съставка",
+            "buttonEdit": "Промени",
+            "buttonDelete": "Изтрий"
+        },
+        "form": {
+            "name" : "Име:",
+            "fieldIsRequired": "Това поле е задължително",
+            "describtion": "Описание:",
+            "image": "Снимка:",
+            "submit": "Предай"
+        },
+        "messages": {
+            "failToSetFile": "Снимката не можа да се избере",
+            "failToDelete": "Съставката не можа да бъде изтрита",
+            "failToCreate": "Съставката не можа да бъде създадена",
+            "failToUpdate": "Съставката не можа да бъде променена",
+            "noItemsMessage": "Няма Съставки"
+        }
+    },
+    "userManagement": {
+        "role": "Роля",
+        "user": "Потребител",
+        "moderator": "Модератор",
+        "admin": "Администратор",
+        "alertMessage": "Сигурни ли сте, че искате да изтриете потребителя?",
+        "deleteUserSuccessMessage": "Потребителят е изтрит успешно!",
+        "userChangeSuccessMessage": "Промените са направени успешно!",
+        "logoutSuccess": "Вие сте излезли от системата!"
+    }
+}
